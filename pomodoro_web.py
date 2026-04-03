@@ -8,8 +8,8 @@ st.title(":orange[Pomodoro Timer]", text_alignment='center')
 st.markdown(base_template, unsafe_allow_html=True)
 st.divider()
 
-# WORK_TIME = 25 * 60
-WORK_TIME = 5  # Testing in small duration
+WORK_TIME = 25 * 60
+# WORK_TIME = 5  # Testing in small duration
 POMODORO_COUNT = 0
 
 if "is_running" not in st.session_state.keys():
